@@ -1,0 +1,17 @@
+- Contact Navbar
+- Normal Navbar
+- Tabs
+    - Home 
+        - Main Goals
+        - Current Missions
+        - Updates
+            - Youtube
+            - Insta
+            - Facebook
+        - About the founder
+    - Activites
+    - Milestones
+    - Current Missions
+    - About org
+    - Donation
+- Footer
