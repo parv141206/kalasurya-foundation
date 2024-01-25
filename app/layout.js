@@ -13,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.className}  dark:bg-slate-950 dark:text-white`}>
+      <body
+        className={`${inter.className} overflow-x-hidden  dark:bg-slate-950 dark:text-white`}
+      >
         <Navbar />
         <div className="py-5">{children}</div>
         <Footer />

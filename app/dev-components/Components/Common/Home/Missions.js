@@ -50,7 +50,7 @@ export default function Missions() {
       counter++;
       return counter % 2 == 0 ? (
         <div key={data.key} className="relative  md:flex">
-          <div className="md:shadow-max md:dark:shadow-maxdark relative z-[10] shadow-white  md:w-[60%]">
+          <div className="relative z-[10] shadow-white md:w-[60%] md:shadow-max  md:dark:shadow-maxdark">
             <ClassyCard
               title={data.title}
               content={data.content}
@@ -63,7 +63,7 @@ export default function Missions() {
         <div key={data.key} className="relative flex">
           <div className="bottom-[-35%] left-[25%] hidden h-[80%] w-[25%]  border-8  border-[var(--primary-light)] md:absolute md:block"></div>
           <div className="md:w-[40%]"></div>
-          <div className="md:shadow-max md:dark:shadow-maxdark relative z-10 md:w-[60%]">
+          <div className="relative z-10 md:w-[60%] md:shadow-max md:dark:shadow-maxdark">
             <ClassyCard
               title={data.title}
               content={data.content}
@@ -76,7 +76,7 @@ export default function Missions() {
   };
   return (
     <div>
-      <h1 className="shadow-max dark:shadow-maxdark relative z-10 my-8 flex bg-white py-3 text-5xl font-extrabold shadow-white dark:bg-slate-950">
+      <h1 className="relative z-10 my-8 flex gap-3 bg-white py-3 text-5xl font-extrabold shadow-max shadow-white dark:bg-slate-950 dark:shadow-maxdark">
         <GiTorch />
         Our ongoing missions
       </h1>

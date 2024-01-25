@@ -13,7 +13,7 @@
 
 /* Home Goals: */
 .goals-card {
-  @apply my-5 flex h-[25vh] items-end rounded-lg border border-slate-200 border-opacity-10 p-5 text-center md:h-[70%] md:w-[25%];
+  @apply my-5 flex h-[25vh]  items-end rounded-lg border border-slate-200 border-opacity-10 p-5 text-center md:h-[70%] md:w-[25%];
 }
 
 /* Missions */
