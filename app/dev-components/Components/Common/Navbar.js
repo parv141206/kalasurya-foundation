@@ -1,21 +1,24 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { FaHome } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import { FaCloudSun } from "react-icons/fa";
 export default function Navbar() {
   const [expanded, setExpanded] = useState(false);
   const path = usePathname();
   console.log(path);
+  const toggleTheme = () => {
+    document.documentElement.classList.toggle("dark");
+  };
   const isActive = (pathname) => {
     return path === pathname
       ? "bg-[var(--primary-light)] dark:bg-[var(--primary-dark)] p-3 rounded-lg"
       : "";
   };
   return (
-    <div className="relative w-full px-5 py-5 md:px-10">
+    <div className={`relative w-full px-5 py-5 md:px-10`}>
       <div className="flex flex-col justify-between font-bold dark:text-white md:flex-row">
         <ul className="flex justify-between">
           <div>Kalasurya Foundation</div>
@@ -56,9 +59,13 @@ export default function Navbar() {
               Donate
             </Link>
           </li>
-          <ul className="md:hidden">Theme Button</ul>
+          <ul className="md:hidden" onClick={toggleTheme}>
+            <FaCloudSun className="text-3xl" />
+          </ul>
         </ul>
-        <ul className="hidden md:block">Theme Button</ul>
+        <ul className="hidden md:block" onClick={toggleTheme}>
+          <FaCloudSun className="text-3xl" />
+        </ul>
       </div>
     </div>
   );

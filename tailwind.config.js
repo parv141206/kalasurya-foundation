@@ -7,10 +7,16 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    screens: {
+      sm: "768px",
+      md: "1024px",
+      lg: "1280px",
+      xl: "1536px",
+    },
     extend: {
       boxShadow: {
-        max: "0px 20px 10px 30px white",
-        maxdark: "0px 20px 10px 30px rgb(2 6 23)",
+        max: "0px 35px 30px 30px white",
+        maxdark: "0px 35px 30px 30px rgb(2 6 23)",
       },
       animation: {
         "spin-slow": "spin 45s linear infinite",

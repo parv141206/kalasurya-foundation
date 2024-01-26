@@ -10,13 +10,67 @@
   --secondary-dark: #090e25;
   --tertiary-dark: #00142b;
 }
+/* Backgrounds */
+.light-background {
+  background: radial-gradient(
+      circle,
+      rgba(49, 224, 255, 0.219) 0%,
+      transparent 40%
+    ),
+    radial-gradient(circle, rgba(33, 70, 255, 0.233) 0%, transparent 40%),
+    radial-gradient(circle, rgba(255, 50, 146, 0.212) 0%, transparent 40%),
+    radial-gradient(circle, rgba(37, 255, 110, 0.212) 0%, transparent 40%);
+  background-size:
+    50vw 100vh,
+    100vw 100vh,
+    100vw 100vh,
+    100vw 100vh;
+  background-repeat: repeat-y;
+  background-position:
+    -20vw -100px,
+    25vw -25vh,
+    50vw 90vh,
+    -35vw 170vh;
+  /* background-attachment: fixed; */
+}
+.dark-background {
+  background: radial-gradient(
+      circle,
+      rgba(144, 255, 140, 0.171) 0%,
+      transparent 40%
+    ),
+    radial-gradient(circle, rgba(117, 140, 255, 0.288) 0%, transparent 40%),
+    radial-gradient(circle, rgb(255, 117, 181) 0%, transparent 40%),
+    radial-gradient(circle, rgb(172, 255, 117) 0%, transparent 40%);
 
+  background-size:
+    50vw 100vh,
+    100vw 100vh,
+    100vw 100vh,
+    100vw 100vh;
+  background-repeat: no-repeat;
+  background-position:
+    -20vw -100px,
+    25vw -25vh,
+    50vw 90vh,
+    -35vw 170vh;
+  /* background-attachment: fixed; */
+}
 /* Home Goals: */
 .goals-card {
-  @apply my-5 flex h-[25vh]  items-end rounded-lg border border-slate-200 border-opacity-10 p-5 text-center md:h-[70%] md:w-[25%];
+  @apply my-5  items-end  rounded-lg border border-slate-200 border-opacity-10 p-5 text-center md:flex md:h-[70%] md:w-[27%];
 }
 
 /* Missions */
 .shadow-max {
   box-shadow: white 0px 10px 10px 20px;
+}
+
+/* About founder */
+.founder-image {
+  /* background: url("/images/founder_copy.png"); */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: auto;
 }
