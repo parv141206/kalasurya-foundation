@@ -15,10 +15,15 @@ export default function Goals() {
         width={500}
         height={500}
       ></Image>
+      <div className="heading-font text-5xl">
+        Welcome to Kalasurya Foundation
+      </div>
       <div className="h-full gap-5 px-5 md:flex md:justify-center md:px-10">
-        <div className="goals-card self-end bg-[var(--secondary-light)] dark:bg-[var(--secondary-dark)]">
+        <div className="goals-card subtle-shadow self-end ">
           <div className="flex flex-col gap-3">
-            <div className="md:text-2xl">No More Old age Homes!</div>
+            <div className=" font-extrabold md:text-2xl">
+              No More Old age Homes!
+            </div>
             <div className="md:text-xl">વૃદ્ધ લોકો પરિવારનું ગૌરવ છે</div>
           </div>
         </div>

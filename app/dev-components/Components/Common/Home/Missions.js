@@ -10,7 +10,7 @@ export default function Missions() {
         "At Kalasurya Foundation, we believe the warmth of family is like sunshine on a chilly day. It nourishes, it comforts, and it lights the way forward. We see firsthand the joy and richness that comes from living in joint families, where generations weave their stories together.",
       footer:
         "કાલસૂર્ય ફાઉન્ડેશનમાં, અમે માનીએ છીએ કે પરિવારની હૂંફ ઠંડીના દિવસે સૂર્યપ્રકાશ જેવી છે. તે પોષણ આપે છે, તે આરામ આપે છે અને તે આગળના માર્ગને પ્રકાશિત કરે છે. સંયુક્ત કુટુંબોમાં રહેવાથી જે આનંદ અને સમૃદ્ધિ મળે છે તે આપણે સૌ પ્રથમ જોઈ શકીએ છીએ.",
-      image: [1, "/images/goals/1-family.jpg"],
+      image: [1, "/images/Missions/1-family.jpg"],
     },
     {
       key: 2,
@@ -19,7 +19,7 @@ export default function Missions() {
         "Deep within every girl, there's a dancer waiting to take flight. At Kalasurya Foundation, we see that spark, that flicker of rhythm and grace. We believe every girl deserves a chance to let that flame burn bright. That's why we offer Bharatnatyam, a dance as rich as history itself, to girls. We open our doors wide, making sure cost is never a barrier to their dreams.",
       footer:
         "દેવમઈ અંતર્ગત ૪ વર્ષથી વધુ વયની દીકરીઓને તથા સ્ત્રીઓને સામાન્ય ફી લઇ ભરતનાટ્યમ નૃત્યની તાલીમ આપવામાં આવે છે જેનો મુખ્ય ઉદ્દેશ્ય શાસ્ત્રીય નૃત્યમાં પ્રસરેલા વેપારીકરણથી દૂર રહી આધ્યાત્મિક મૂલ્યોને વધુમાં વધુ લોકો સુધી પહોંચાડવાનો છે.",
-      image: [2, "/images/goals/2.jpg"],
+      image: [2, "/images/Missions/2.jpg"],
     },
     {
       key: 3,
@@ -29,7 +29,7 @@ export default function Missions() {
         "Mother earth is the generator of not only human life but life itself. Kalasurya foundation through it's conscious efforts in protecting the planet conducts various programs that provides information on water conservation, organis- es tree plantation programs, promotes the minimum possible use of plastic products as well as imparts the knowledge about the true methods of waste disposal. All these activities also helps in making citizens more conscious to- wards such issues.",
       footer:
         "માત્ર માનવ જીવનની જ નહીં, જીવ માત્રની જનક એવી આપણી આ પૃથ્વીના રક્ષણ માટે જાગૃત એવું કલાસૂર્યા ફાઉન્ડેશન જળ બચાવને લાગતી માહિતી આપવા, વૃક્ષારોપણ કાર્યક્રમોનું આયોજન, પ્લાસ્ટિકના ઉપયોગને ટાળવા તેમજ તેના વપરાશથી થતાં નુકસાન વિશે જણાવતા, કચરાનો નિકાલ કરવાની સાચી પદ્ધતિની સમજ આપતા અનેક કાર્યક્રમો સમયાંતરે કરતુ રહે છે. આ સઘળી પ્રવૃત્તિઓ અનેક જાગૃત નાગરિકોના સર્જનમાં પણ મદદકરતાં બની રહે છે",
-      image: [1, "/images/goals/3.jpg"],
+      image: [1, "/images/Missions/3.jpg"],
     },
     {
       key: 4,
@@ -38,7 +38,7 @@ export default function Missions() {
         "All the young members of this club are given an identity card along with a 'declaration on oath' that they follow. This youth club through various programs all over Gujarat spreads awareness for traffic rules, de-addiction, career along with various social issues. Such activities carried out by the youth leads the society in the right direction specially when the future of the country is in their hands.",
       footer:
         "આ ક્લબના તમામ યુવાન મેમ્બર્સને આઈ.ડી. કાર્ડ સાથે એક પ્રતિજ્ઞા પત્ર આપવામાં આવે છે જેને અનુસરવું ફરજીયાત છે. ટ્રાફિકના નિયમો, વ્યસન મુક્તિ, કરિઅર (કારકિર્દી) અને સામાજીક જીવનના તમામ મુદ્દાઓને લગતાં અનેક કાર્યક્રમો કરતી આ ક્લબ સમગ્ર ગુજરાતમાં સક્રિય છે. યુવાનોના હાથમાં જ જ્યારે દેશનું સુકાન હોય ત્યારે યુવાનો દ્વારા જ થતી આવી પ્રવૃત્તિઓ સમાજને સાચી દિશામાં દોરવાનું કાર્ય કરે છે.",
-      image: [2, "/images/goals/4.jpg"],
+      image: [2, "/images/Missions/4.jpg"],
     },
     {
       key: 5,
