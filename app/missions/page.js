@@ -37,6 +37,12 @@ export default function page() {
         image2={data[0].image2}
         image3={data[0].image3}
       />
+      <div className="flex items-center justify-center">
+        <YouTubeCard
+          title="Interviewing a Thriving Joint Family of 125 Members!"
+          link="https://www.youtube.com/watch?v=gBEAKBnTP6k"
+        />
+      </div>
       <Layout_2
         title={data[1].title}
         content1={data[1].content1}
@@ -44,9 +50,9 @@ export default function page() {
         image1={data[1].image1}
         image2={data[1].image2}
       />
-      <ul className="container mx-auto list-inside p-7 ">
+      <ul className="container mx-auto list-inside rounded-3xl bg-[var(--secondary-light)] p-7 dark:bg-[var(--primary-dark)]">
         <li>
-          <div className="text-3xl">Sangee the Light</div>
+          <div className="heading-font text-3xl">Sangee the Light</div>
 
           <div>
             The purpose of this campaign is to educate the daughters about the
@@ -67,6 +73,51 @@ export default function page() {
             <YouTubeCard
               title="Menstrual Cups awareness seminar."
               link="https://www.youtube.com/watch?v=87OwF8l-xWg"
+            />
+          </div>
+        </li>
+        <li className="">
+          <div className="heading-font text-3xl">Todays Women</div>
+
+          <div>
+            The main objective of this campaign is to organize programs to
+            understand the physical and mental changes that takes place in women
+            after marriage and to give an appropriate understanding of their
+            diagnosis. Here experts give understanding about how to protect a
+            person in childhood and old age, from the psychological and physical
+            nutritional side. Women are also given training to keep their body
+            fit and healthy so that they can take care of the family along with
+            themselves and make life enjoyable.
+          </div>
+        </li>
+        <li className="">
+          <div className="heading-font text-3xl">Devmai</div>
+
+          <div>
+            Under Devmai, BharatNatyam dance training is imparted to girls and
+            women above 4 years of age for a modest fee. The aim of doing this
+            is to impart spi- ritual values while being away from the
+            commercialization of it. As part of efforts to maintain their
+            connect with our organization, In addition to dance training the
+            daughters are made aware of their spiritual and family values so
+            that they can be successful in life after studying the art art for 7
+            years. From time to time the &quot;Arangetram&quot; is presented by
+            the girls in the temple precin- cts with the intention of devotion
+            so that the main purpose of our art i.e. de- votion remains alive.
+          </div>
+          <h1 className=" text-2xl">Have a look at following videos,</h1>
+          <div className="flex flex-wrap items-center justify-center">
+            <YouTubeCard
+              title="Ms Bhakti Ramanuj Aarangatram"
+              link="https://www.youtube.com/watch?v=JthV1deIJrU"
+            />
+            <YouTubeCard
+              title="Ramayan I Bhakti Ramanuj I Raag : Malika Taal : Aadi"
+              link="https://www.youtube.com/watch?v=QXN3Fd4DtBg"
+            />
+            <YouTubeCard
+              title="Puspanjali I Bhakti Ramanuj "
+              link="https://www.youtube.com/watch?v=2gbVdTl3gEs"
             />
           </div>
         </li>

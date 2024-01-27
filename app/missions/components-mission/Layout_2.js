@@ -5,11 +5,11 @@ export default function Layout_2(props) {
   return (
     <div>
       <div className="container">
-        <div className="my-3 text-5xl font-extrabold">{title}</div>
-        <div className="flex flex-col gap-5">
-          <div className="flex flex-col gap-5 md:flex-row ">
+        <div className="my-10 text-5xl font-extrabold">{title}</div>
+        <div className="my-5 flex flex-col gap-10 rounded-3xl bg-[var(--tertiary-light)] p-10 dark:bg-[var(--secondary-dark)] ">
+          <div className="flex flex-col gap-5 md:flex-row">
             <Image
-              className="order-2 rounded-lg  md:order-1 md:w-1/2"
+              className="order-2 rounded-3xl md:order-1 md:w-1/2"
               objectFit="cover"
               objectPosition="center"
               src={image1}
@@ -17,17 +17,20 @@ export default function Layout_2(props) {
               width={500}
               height={500}
             />
-            <div className="order-1 rounded-lg border-2 border-black border-opacity-15 bg-[var(--primary-light)] p-4 dark:border-slate-600 dark:bg-[var(--primary-dark)] md:order-2 md:w-1/2">
-              {content1}
-            </div>
+            {/* Adjusted classes for content1 to match Layout_1 styling */}
+            <div
+              className="order-1 md:order-2 md:w-1/2"
+              dangerouslySetInnerHTML={{ __html: content1 }}
+            />
           </div>
           <div className="flex flex-col gap-5 md:flex-row">
+            {/* Adjusted classes for content2 to match Layout_1 styling */}
             <div
-              className=" rounded-lg border-2 border-black border-opacity-15 bg-[var(--primary-light)] p-4 dark:border-slate-600 dark:bg-[var(--primary-dark)] md:w-1/2"
+              className="md:w-1/2"
               dangerouslySetInnerHTML={{ __html: content2 }}
-            ></div>
+            />
             <Image
-              className="order-2 rounded-lg  md:order-1 md:w-1/2"
+              className="order-2 rounded-3xl md:order-1 md:w-1/2"
               objectFit="cover"
               objectPosition="center"
               src={image2}
