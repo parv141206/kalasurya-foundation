@@ -1,15 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:wght@500&family=Lobster+Two:wght@700&family=Luckiest+Guy&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rasa&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 :root {
   --primary-light: #b39eff;
   --secondary-light: #cfe2ff;
-  --tertiary-light: #dedaff;
+  --tertiary-light: #ffffff;
   --primary-dark: #181141;
   --secondary-dark: #090e25;
   --tertiary-dark: #00142b;
 }
+/* @font-face {
+  font-family: Designer;
+  src: url("../public/fonts/DesignerFonts.otf");
+} */
 /* .subtle-shadow {
   box-shadow: 0 0 30px 5px black;
 } */
@@ -18,7 +23,12 @@
 }
 /* Missions */
 .heading-font {
-  font-family: "Lobster Two", sans-serif;
+  font-family: "Berkshire Swash", sans-serif;
+  letter-spacing: 3px;
+}
+.guj-heading {
+  /* font-family: "Rasa", serif; */
+  /* color: rgba(0, 195, 255, 0.127); */
 }
 .image {
   border: 8px solid var(--primary-light);
@@ -76,7 +86,7 @@
 }
 /* Home Goals: */
 .goals-card {
-  @apply my-5  items-end  rounded-lg border border-slate-200 border-opacity-10 p-5 text-center md:flex md:h-[70%] md:w-[27%];
+  @apply my-5  items-end  rounded-lg border border-slate-200 border-opacity-0 p-5 text-center md:flex  md:w-[27%];
 }
 
 /* Missions */

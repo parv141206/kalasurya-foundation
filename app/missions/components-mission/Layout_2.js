@@ -22,9 +22,10 @@ export default function Layout_2(props) {
             </div>
           </div>
           <div className="flex flex-col gap-5 md:flex-row">
-            <div className=" rounded-lg border-2 border-black border-opacity-15 bg-[var(--primary-light)] p-4 dark:border-slate-600 dark:bg-[var(--primary-dark)] md:w-1/2">
-              {content2}
-            </div>
+            <div
+              className=" rounded-lg border-2 border-black border-opacity-15 bg-[var(--primary-light)] p-4 dark:border-slate-600 dark:bg-[var(--primary-dark)] md:w-1/2"
+              dangerouslySetInnerHTML={{ __html: content2 }}
+            ></div>
             <Image
               className="order-2 rounded-lg  md:order-1 md:w-1/2"
               objectFit="cover"

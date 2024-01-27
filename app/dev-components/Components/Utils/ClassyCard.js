@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ClassyCard(props) {
   const { title, content, footer, image } = props;
   return (
-    <div className=" flex flex-col gap-3 rounded-lg border border-black border-opacity-20 bg-[var(--tertiary-light)] p-3 dark:border-white dark:border-opacity-5 dark:bg-[var(--secondary-dark)] md:flex-row">
+    <div className=" flex flex-col gap-3 rounded-3xl border border-opacity-20 bg-[var(--tertiary-light)] p-5 shadow-md dark:border-white dark:border-opacity-5 dark:bg-[var(--secondary-dark)] md:flex-row">
       {image && image[0] == 1 ? (
         <Image
           src={image[1]}
@@ -21,9 +21,9 @@ export default function ClassyCard(props) {
         </h1>
 
         <br />
-        <p>{content}</p>
+        <p className="text-base">{content}</p>
         <br />
-        <p className="text-sm">{footer}</p>
+        <p className="">{footer}</p>
       </div>
       {image && image[0] == 2 ? (
         <Image

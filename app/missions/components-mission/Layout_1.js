@@ -5,8 +5,8 @@ export default function Layout_1(props) {
   return (
     <div className="container">
       <div className="my-3 text-5xl font-extrabold">{title}</div>
-      <div className="flex flex-col gap-5 ">
-        <div className="flex flex-col gap-5 md:flex-row">
+      <div className="flex flex-col gap-10 ">
+        <div className="flex flex-col gap-10 md:flex-row">
           <Image
             className="image  order-2 rounded-3xl  md:order-1 md:w-1/2"
             objectFit="cover"

@@ -1,6 +1,7 @@
 import { Suspense, lazy } from "react";
 import Goals from "./dev-components/Components/Common/Home/Goals";
 import AboutTheFounder from "./dev-components/Components/Common/Home/AboutTheFounder";
+import Divider from "./dev-components/Components/Utils/Divider";
 
 export const metadata = {
   title: "Kalasurya Foundation",
@@ -18,6 +19,9 @@ export default function Home() {
     <div className="home container relative mx-auto md:px-5">
       {/* <div className="absolute h-[100%] border-4 border-slate-200 dark:border-[var(--secondary-dark)]"></div> */}
       <Goals />
+      <div className="w-full">
+        <Divider />
+      </div>
       <Suspense fallback={<div>Loading...</div>}>
         <Missions />
         <Updates />

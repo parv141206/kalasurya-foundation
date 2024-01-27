@@ -2,6 +2,7 @@ import React from "react";
 import Layout_1 from "./components-mission/Layout_1";
 import Layout_2 from "./components-mission/Layout_2";
 import Layout_3 from "./components-mission/Layout_3";
+import YouTubeCard from "../dev-components/Components/Utils/YouTubeCard";
 
 export default function page() {
   const data = [
@@ -17,6 +18,15 @@ export default function page() {
       image2: "/images/CompleteMissions/JointFamily/2.png",
       image3: "/images/CompleteMissions/JointFamily/3.jpg",
     },
+    {
+      title: "Dikari Ne Apo Pankh",
+      content1:
+        "The aim of the campaign is to educate the daughters about the values of life and to make them aware of the spiritual aspects so that they can stand on their own feet in difficult situations, become mentally strong and give the right direction to their life and keep the whole family united.",
+      content2:
+        "The campaign includes various competitions, seminars, workshops and pic- nics for the daughters, topics covered during these activities mainly include fetal rites (garbha sanskar), yoga-meditation, physical and mental beauty, legal information, self-defense, understanding of menstruation and products used during it, correct way of choosing innerwear, hair-makeup, kitchen as a pharmacy, menopause, child upbringing and the difficulties of old age, which are covered under the following heads/activities... <br/> <br/> <ul class='list-disc list-inside'>  <li>Sangee the light</li> <li>Today's Women</li> <li>Devmai</li> </ul>",
+      image1: "/images/Missions/2.jpg",
+      image2: "/images/Missions/4.jpg",
+    },
   ];
   return (
     <div>
@@ -27,8 +37,40 @@ export default function page() {
         image2={data[0].image2}
         image3={data[0].image3}
       />
-      <Layout_2 />
-      <Layout_3 />
+      <Layout_2
+        title={data[1].title}
+        content1={data[1].content1}
+        content2={data[1].content2}
+        image1={data[1].image1}
+        image2={data[1].image2}
+      />
+      <ul className="container mx-auto list-inside p-7 ">
+        <li>
+          <div className="text-3xl">Sangee the Light</div>
+
+          <div>
+            The purpose of this campaign is to educate the daughters about the
+            products used during menstruation period, harm caused by the use of
+            inappropriate things and to encourage them to use the menstrual
+            cups. Menstrual cups are distributed free of cost (in collaboration
+            with donors) at various schools, colleges, corporate houses,
+            women&apos;s associations and residential areas. Programs like Bike
+            Rally, Bicycle Rally, Marathon, Seminar etc. are also organized to
+            bring awareness in general about this subject.
+          </div>
+          <h1 className="text-2xl">Have a look at following videos,</h1>
+          <div className="flex items-center justify-center">
+            <YouTubeCard
+              title="Menstrual Cups experiences in Rajkot jail."
+              link="https://www.youtube.com/watch?v=Q69_kdm1pvs"
+            />
+            <YouTubeCard
+              title="Menstrual Cups awareness seminar."
+              link="https://www.youtube.com/watch?v=87OwF8l-xWg"
+            />
+          </div>
+        </li>
+      </ul>
     </div>
   );
 }
