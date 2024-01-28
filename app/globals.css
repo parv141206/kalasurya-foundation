@@ -88,7 +88,9 @@
 .goals-card {
   @apply my-5  items-end  rounded-lg border border-slate-200 border-opacity-0 p-5 text-center md:flex  md:w-[27%];
 }
-
+.fancy-card {
+  @apply m-12 rounded-3xl bg-slate-100 p-4 text-center dark:bg-slate-900;
+}
 /* Missions */
 .shadow-max {
   box-shadow: white 0px 10px 10px 20px;

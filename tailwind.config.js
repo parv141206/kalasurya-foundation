@@ -17,6 +17,8 @@ module.exports = {
       boxShadow: {
         max: "0px 35px 30px 30px white",
         maxdark: "0px 35px 30px 30px rgb(2 6 23)",
+        "custom-shadow": "-6px 6px 0px 6px #181141",
+        "custom-shadow-dark": "-6px 6px 0px 6px  #cfe2ff",
       },
       animation: {
         "spin-slow": "spin 45s linear infinite",

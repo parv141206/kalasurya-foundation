@@ -20,7 +20,11 @@ export default function Home() {
       {/* <div className="absolute h-[100%] border-4 border-slate-200 dark:border-[var(--secondary-dark)]"></div> */}
       <Goals />
       <div className="w-full">
-        <Divider />
+        <div className="fancy-card shadow-custom-shadow dark:shadow-custom-shadow-dark">
+          <div className="text-xl">
+            Join us in this adventure of Human to Humanity!
+          </div>
+        </div>
       </div>
       <Suspense fallback={<div>Loading...</div>}>
         <Missions />
