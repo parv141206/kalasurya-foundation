@@ -20,7 +20,9 @@ export default function RootLayout({ children }) {
         className={`${inter.className}  light-background  overflow-x-hidden dark:bg-slate-950 dark:text-white`}
       >
         <Navbar />
-        <div className="container mx-auto px-3 py-5">{children}</div>
+        <div className="container mx-auto min-w-[100vh] px-3 py-5">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
