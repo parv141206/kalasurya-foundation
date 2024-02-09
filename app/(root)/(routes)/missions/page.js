@@ -2,8 +2,7 @@ import React from "react";
 import Layout_1 from "./components-mission/Layout_1";
 import Layout_2 from "./components-mission/Layout_2";
 import Layout_3 from "./components-mission/Layout_3";
-import YouTubeCard from "../dev-components/Components/Utils/YouTubeCard";
-
+import YouTubeCard from "@/app/dev-components/Components/Utils/YouTubeCard";
 export default function page() {
   const data = [
     {

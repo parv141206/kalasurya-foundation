@@ -1,6 +1,6 @@
 import React from "react";
 import { GiTorch } from "react-icons/gi";
-import ClassyCard from "../dev-components/Components/Utils/ClassyCard";
+import ClassyCard from "../../../dev-components/Components/Utils/ClassyCard";
 export default function page() {
   const data = [
     {
