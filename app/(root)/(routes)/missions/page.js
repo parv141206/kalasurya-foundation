@@ -1,9 +1,11 @@
-import React from "react";
-import Layout_1 from "./components-mission/Layout_1";
-import Layout_2 from "./components-mission/Layout_2";
-import Layout_3 from "./components-mission/Layout_3";
-import YouTubeCard from "@/app/dev-components/Components/Utils/YouTubeCard";
+import React, { lazy } from "react";
+
 export default function page() {
+  const YouTubeCard = lazy(
+    () => import("@/app/dev-components/Components/Utils/YouTubeCard"),
+  );
+  const Layout_1 = lazy(() => import("./components-mission/Layout_1"));
+  const Layout_2 = lazy(() => import("./components-mission/Layout_2"));
   const data = [
     {
       title: "A Joint Family Is a Happy Family",
@@ -64,7 +66,7 @@ export default function page() {
             bring awareness in general about this subject.
           </div>
           <h1 className="text-2xl">Have a look at following videos,</h1>
-          <div className="flex items-center justify-center">
+          <div className="flex flex-wrap items-center justify-center">
             <YouTubeCard
               title="Menstrual Cups experiences in Rajkot jail."
               link="https://www.youtube.com/watch?v=Q69_kdm1pvs"

@@ -21,7 +21,9 @@ export default function Navbar() {
     <div className={`relative w-full px-5 py-5 md:px-10`}>
       <div className="flex flex-col justify-between font-bold dark:text-white md:flex-row">
         <ul className="flex justify-between">
-          <div>Kalasurya Foundation</div>
+          <div className="heading-font font-extrabold">
+            Kalasurya Foundation
+          </div>
           <button className="md:hidden" onClick={() => setExpanded(!expanded)}>
             <CiMenuBurger />
           </button>
